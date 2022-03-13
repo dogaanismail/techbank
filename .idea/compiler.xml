@@ -7,10 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cqrs.core" />
         <module name="account.common" />
         <module name="account.query" />
         <module name="account.cmd" />
+      </profile>
+      <profile name="Annotation profile for bank-account" enabled="true">
+        <sourceOutputDir name="../../cqrs-es/cqrs.core/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../cqrs-es/cqrs.core/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cqrs.core" />
       </profile>
     </annotationProcessing>
   </component>
