@@ -35,6 +35,7 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -44,6 +45,18 @@
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.tachbank</groupId>
+			<artifactId>cqrs.core</artifactId>
+			<version>1.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.tachbank</groupId>
+			<artifactId>account.common</artifactId>
+			<version>1.0.0</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
